@@ -1,0 +1,56 @@
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body style="margin: 1.5rem;">
+
+        <h3>Financial Independance Calculator App</h3>
+        <!--<button id="getmetal" class="function">Get Metal</button>-->
+       
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">The Latte Effect</h4>
+                <h5 class="card-subtitle">Savings from not spending..</h5>
+                <br>
+                    <p class="card-text">
+                        <table class="table">
+                            <tbody id="savingstable">
+                                <th></th>
+                                <th>What it costs you</th>
+                                <th>What it could be</th>
+                                <tr>
+                                    <td>Weekly Expense $</td>
+                                    <td><input type="number" class="form-control" id="weeklysavinginput"></td>
+                                    <td id="weeklysavingresult"></td>
+                                </tr>
+                                <tr>
+                                    <td>Monthly Expense $</td>
+                                    <td><input type="number" class="form-control col-sm-1" id="monthlysavinginput"></td>
+                                    <td id="monthlysavingresult"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </p>
+                <!--<a id="calculateSavings" class="card-link">Calculate</a>-->
+            </div>
+        </div>
+        <!--
+        <div class="card" style="pointer-events:none">
+            <div id="logdiv" class="card-body">
+                <h5 class="card-title">Captain's Log</h5>
+                <p class="card-text">
+                    <table class="table">
+                        <tbody id="logtable"></tbody>
+                    </table>
+                </p>
+                <a href="#" class="card-link">Collapse Log</a>
+            </div>
+        </div>
+        -->
+
+        <script src='reef.js' charset='utf-8' type='application/javascript'></script>
+        <script src='counter.js' charset='utf-8' type='application/javascript'></script>
+
+    </body>
+</html>
